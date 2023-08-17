@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+}
+  
+.nav{
+   position: relative;
+    position: fixed;
+    width: 100%;
+   background-color: #fff;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    z-index: 2;
+ 
+}
+.bucket{
+    width: 51.2px;
+    height: 51.2px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+.navleft{
+  margin-top: 10px;
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+}
+.navright{
+    padding-left: 900px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.signin{
+ 
+   margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+.logo{
+   margin-bottom: 10px;
+   cursor: pointer;
+   
+}
+
+
+.navsec1{
+   margin-top: 20px;
+   
+}
+.nav2{
+    z-index: 1;
+    position: relative;
+    top: 70px;
+    width: 100%;
+    height: 68px;
+    background-color:#202124;
+    display: flex;
+    justify-content: center;
+   
+}
+.headbottomtext{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: .5px;
+    
+    color: #fff;
+    
+}
+.headbutton{
+    background-color: #e4002b;
+    color: #fff;
+    width: 164.8px;
+    height: 44px;
+    border-radius: 20px;
+    margin-left: 20px;
+   border: 0;
+}
+.headbottomparent{
+    display: flex;
+    align-items: center;
+}
+.container{
+   
+    width: 100%;
+    height: 105vh;
+    display: flex;
+    
+}
+
+.leftsection{
+    margin-top: 68px;
+   background-color: #fff;
+    height: 89px;
+    width: 18vw;
+    margin-left: 130px;
+    top: 100px;
+    /* position: sticky; */
+}
+.rightsection{
+    width: 950px;
+     /* background-color: rgb(4, 102, 69); */
+      height: 600px;
+     margin-top: 68px;
+     overflow: scroll;
+     overflow-x: hidden;
+}
+
+.container a{
+    text-decoration: none;
+    color: black;
+}
+.container h1{
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.container ul li{
+    font-family: sans-serif;
+    list-style: none;
+    margin-top: 25px;
+}
+.search{
+   margin-top: 80px;
+   margin-left: 20px;
+  
+}
+.search input{
+    width:180px ;
+    height: 30px;
+    border-radius: 20px;
+    border:white;
+    border: solid black 1px;
+    margin-top: 2px;
+
+
+}
+.searchicon{
+    width: 30px;
+    height: 30px;
+  
+   border-radius: 50%;
+   
+  
+
+   display: inline-block;
+   position: relative;
+   left: 20px;
+}
+.searchicon i{
+    position: relative;
+  
+}
+.search{
+    width: 100%;
+    height: 50px;
+    border-bottom: solid black 2px;
+  
+    background-color: #fff;
+    
+}
+.section1{
+   
+    width: 866px;
+    
+    display: flex;
+    padding-left: 30px;
+    background-color: #f8f7f5;
+   
+    
+    
+
+}
+.section-header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+ width: 896px;
+ background-color: #f8f7f5;
+ margin-top: 100px;
+ border-radius: 8px;
+
+}
+.section-header h2{
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+   
+.im{
+    width: 400px;
+}
+.product-deatails{
+    margin-left: 30px;
+    border-radius: 8px;
+    
+}
+
+.product-header{
+    font-size: 16px;
+    font-weight: 600;
+}
+.tex-non-veg{
+    
+    font-size: 12px;
+}
+.prodect-price{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #202124;
+}
+.cartbutton{
+    width: 184px;
+    height: 44px;
+    background-color: #e4002b;
+    border: 1px solid #e4002b;
+    color: #fff;
+    border-radius: 50px;
+    margin-top: 50px;
+    
+}
+footer{
+    background-color:#202124;
+    height: 350px;
+    width: 100%;
+}
+.footer-section{
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 100px;
+    display:flex ;
+}
+.footer-section a{
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+.footer-row-2{
+    margin-left: 80px;
+}
+.footer-row-3,.footer-row-4,.footer-row-5 {
+    margin-left: 50px;
+}
+.footer-section ul {
+  margin-bottom: 10px;
+}
+.footer-row-6 a{
+    text-decoration: underline;
+}
+.footer-row-7{
+    margin-left: 80px;
+    
+}
+.footer-row-8{
+    margin-left: 30px;
+    d
+}
+.footer-bottom {
+    display: flex ;
+    color: #fff;
+    margin-left: 400px;
+    margin-top: 80px;
+     
+}
+.footer-social-media {
+    margin-left: 250px;
+}
+.footer-social-media i{
+    margin-left: 10px;
+}
