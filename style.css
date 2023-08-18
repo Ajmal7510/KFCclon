@@ -236,6 +236,10 @@ body{
     margin-top: 50px;
     
 }
+.cartbutton:hover{
+    background-color:#eb3b5c ;
+    cursor: pointer;
+}
 footer{
     background-color:#202124;
     height: 350px;
