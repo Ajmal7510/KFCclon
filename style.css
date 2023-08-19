@@ -93,6 +93,12 @@ body{
     margin-left: 20px;
    border: 0;
 }
+.headbutton:hover{
+    cursor: pointer;
+    background-color: #c9344b;
+    
+}
+
 .headbottomparent{
     display: flex;
     align-items: center;
